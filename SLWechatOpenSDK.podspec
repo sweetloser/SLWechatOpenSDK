@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+微信SDK
                    DESC
 
-  spec.homepage     = "https://github.com/sweetloser/SLWechatOpenSDK.git"
+  spec.homepage     = "https://github.com/sweetloser/SLWechatOpenSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,9 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -67,7 +67,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "9.0"
+  # spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -93,9 +94,9 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "OpenSDK1.9.2/*.h"
+  spec.source_files = "OpenSDK1.9.2/*.h"
 
-  s.vendored_libraries = 'OpenSDK1.9.2/*.a'
+  spec.vendored_libraries = "OpenSDK1.9.2/*.a"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -117,8 +118,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
-
+  spec.frameworks = "Security", "CoreGraphics", "WebKit"
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
