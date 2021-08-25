@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLWechatOpenSDK'
-  s.version          = '9.1.2'
+  s.version          = '1.9.2'
   s.summary          = 'A short description of SLWechatOpenSDK.'
 
 # This description is used to generate tags and improve search results.
