@@ -1,0 +1,16 @@
+PODS:
+  - SLWechatOpenSDK (1.0.0)
+
+DEPENDENCIES:
+  - SLWechatOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  SLWechatOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLWechatOpenSDK: 4016ea2b41447923b1a15c0e28c1e35a3ceb7ac3
+
+PODFILE CHECKSUM: 58ae590c5ef66e094a81efb82b79a67ff5bcbdac
+
+COCOAPODS: 1.10.1
