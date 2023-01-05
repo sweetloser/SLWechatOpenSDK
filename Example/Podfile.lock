@@ -1,5 +1,5 @@
 PODS:
-  - SLWechatOpenSDK (1.0.0)
+  - SLWechatOpenSDK (2.0.0)
 
 DEPENDENCIES:
   - SLWechatOpenSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SLWechatOpenSDK: 4016ea2b41447923b1a15c0e28c1e35a3ceb7ac3
+  SLWechatOpenSDK: 2757b656faa42f4295b5fc9c3f3b4d88db6f74c9
 
 PODFILE CHECKSUM: 58ae590c5ef66e094a81efb82b79a67ff5bcbdac
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

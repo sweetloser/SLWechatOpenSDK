@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLWechatOpenSDK'
-  s.version          = '1.9.2'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of SLWechatOpenSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SLWechatOpenSDK/OpenSDK1.9.2/**.h'
-  s.vendored_libraries = 'SLWechatOpenSDK/OpenSDK1.9.2/*.a'
+  s.source_files = 'SLWechatOpenSDK/OpenSDK2.0.0/**.h'
+  s.vendored_libraries = 'SLWechatOpenSDK/OpenSDK2.0.0/*.a'
 
   s.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'

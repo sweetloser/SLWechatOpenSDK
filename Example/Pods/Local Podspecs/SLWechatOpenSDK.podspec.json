@@ -1,0 +1,38 @@
+{
+  "name": "SLWechatOpenSDK",
+  "version": "2.0.0",
+  "summary": "A short description of SLWechatOpenSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sweetloser/SLWechatOpenSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sweetloser": "18272160172@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sweetloser/SLWechatOpenSDK.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SLWechatOpenSDK/OpenSDK2.0.0/**.h",
+  "vendored_libraries": "SLWechatOpenSDK/OpenSDK2.0.0/*.a",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "frameworks": [
+    "CoreGraphics",
+    "WebKit",
+    "Security"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}

@@ -7,7 +7,5 @@ target 'SLWechatOpenSDK_Example' do
 
   target 'SLWechatOpenSDK_Tests' do
     inherit! :search_paths
-
-    
   end
 end
