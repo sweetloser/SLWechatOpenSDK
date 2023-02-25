@@ -1,1 +1,0 @@
-../../../../../SLWechatOpenSDK/OpenSDK2.0.0/WXApiObject.h

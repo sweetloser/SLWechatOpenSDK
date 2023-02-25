@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E6439D5773266F10D92CD2AE8435EBF3"
-               BuildableName = "SLWechatOpenSDK"
+               BuildableName = "SLWechatOpenSDK.framework"
                BlueprintName = "SLWechatOpenSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

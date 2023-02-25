@@ -7,6 +7,7 @@
 //
 
 #import "SLViewController.h"
+#import <SLWechatOpenSDK/WechatAuthSDK.h>
 
 @interface SLViewController ()
 

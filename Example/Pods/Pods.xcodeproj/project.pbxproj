@@ -6,74 +6,83 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		E6439D5773266F10D92CD2AE8435EBF3 /* SLWechatOpenSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3576976FB9B270663F67F7AB1A5762BF /* Build configuration list for PBXAggregateTarget "SLWechatOpenSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SLWechatOpenSDK;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		1058C5065FB593674474F65D2BD9E5F8 /* Pods-SLWechatOpenSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 771BD5C5D8F8BD65534DEA2F8F9A6A81 /* Pods-SLWechatOpenSDK_Tests-dummy.m */; };
-		65BB17BFCE0385F569C101AE2FAAFBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7DCCFC153389DE2D6B050FE8E18207B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A5860DFC2709CACD7D65C5639D1B7492 /* Pods-SLWechatOpenSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E997DFFB4EFA712FA05AAB4017C237E /* Pods-SLWechatOpenSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3469CD2D6114514543EB0C53CD03420 /* Pods-SLWechatOpenSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE630EEA300BB2A714B32961E7A4F0B6 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0C61C59EDCDFBF08704760AEE0DAEC /* Pods-SLWechatOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE6545CBDD4B1155BBA0FA1227BAC70 /* Pods-SLWechatOpenSDK_Example-dummy.m */; };
+		1058C5065FB593674474F65D2BD9E5F8 /* Pods-SLWechatOpenSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949004B77A9CA5006AE3B4A4D10E966B /* Pods-SLWechatOpenSDK_Tests-dummy.m */; };
+		16853837323EE9865A072B12070BC029 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45EBE0C328FC6B5BE5176A1EB7E27F /* Security.framework */; };
+		330C90DCCF7FB847D2FA8AAC848AA6DF /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E65E4C7B87AAC670C3C5A1C50440AD28 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4957E8856DE397BC350A5CACA1B1F72E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D54452C52844FDDB122987C50630B31 /* CoreGraphics.framework */; };
+		5029540E269AA675799E6549F8329844 /* SLWechatOpenSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D717944C06FEE247515E4435CDC387 /* SLWechatOpenSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AA5A2345CCED4B1BB5E5CDBDBB2BF4 /* SLUseless.m in Sources */ = {isa = PBXBuildFile; fileRef = 4412AECA7925E18D021B875585E3545A /* SLUseless.m */; };
+		55C635250968E4000EE71E829D648CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7820543872814BCD7D609C82206D18 /* Foundation.framework */; };
+		65BB17BFCE0385F569C101AE2FAAFBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7820543872814BCD7D609C82206D18 /* Foundation.framework */; };
+		691832D44EF69512976B41861F7CAB06 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 424FAF404C1867EE23CE740CFE2B83A3 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DCCFC153389DE2D6B050FE8E18207B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7820543872814BCD7D609C82206D18 /* Foundation.framework */; };
+		A5860DFC2709CACD7D65C5639D1B7492 /* Pods-SLWechatOpenSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F183C5629A25F128284EE5887DC4960D /* Pods-SLWechatOpenSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3469CD2D6114514543EB0C53CD03420 /* Pods-SLWechatOpenSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF4543696850DAACDB5A78300488C99 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C482A5FA1AA8C3FF15E32F080556A38C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED1048D490D9998904D10576A923542 /* WebKit.framework */; };
+		D7615B00F3CC9BA71BBD58B59E79D910 /* SLWechatOpenSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F441C75FF36034CBBC21C3CC2D7492 /* SLWechatOpenSDK-dummy.m */; };
+		E2F854B64AC6CE3E66FDB3984F64A68D /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 219F1500130C191A53B9CCD0A3490119 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0C61C59EDCDFBF08704760AEE0DAEC /* Pods-SLWechatOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2776879B63FBD2353D56CDA6F399DD5 /* Pods-SLWechatOpenSDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EEA182A9A0D162F4F7E80AD4E683B751 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9F8CB027CA71317C87A9F184DC29CCD6;
-			remoteInfo = "Pods-SLWechatOpenSDK_Example";
-		};
-		F56E1B3536F796EF38DCDB5D1C0171C0 /* PBXContainerItemProxy */ = {
+		6B06D4233D34CDB1563655BF64844C24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E6439D5773266F10D92CD2AE8435EBF3;
 			remoteInfo = SLWechatOpenSDK;
 		};
+		B7DAFA47ED66ABE48B3CAC028D8E4F9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8CB027CA71317C87A9F184DC29CCD6;
+			remoteInfo = "Pods-SLWechatOpenSDK_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08EEAC06B42CE70CFD7E17DD6E2F4CDE /* Pods-SLWechatOpenSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLWechatOpenSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		201CC3185FFDE03F390A2634B4FAC2CB /* Pods-SLWechatOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		20A10B1540D5D4842A270F96EBDE3EC7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WXApiObject.h; sourceTree = "<group>"; };
-		29E38678A7E91844D579F581C511837D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2FED4648766D0F1440574F8B19A8B52A /* Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		311377624C1A492D988BF5C3A77A494D /* Pods-SLWechatOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		421D41A759D59E92FE0F18C824A45697 /* Pods-SLWechatOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLWechatOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47695CF6EE51555C539DA5E319277A3C /* SLWechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLWechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
-		4BA6877DB08A3491AF7F49ABF869824F /* Pods-SLWechatOpenSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		4EA32BFB9263E512357234357F85CE31 /* Pods-SLWechatOpenSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLWechatOpenSDK_Example.modulemap"; sourceTree = "<group>"; };
+		130B97C87394B9BBC6718287CB716E55 /* SLWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SLWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		18DB955115AB1261D8A739593C8B5991 /* SLWechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLWechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		219F1500130C191A53B9CCD0A3490119 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WXApi.h; sourceTree = "<group>"; };
+		284B53398BD14E39C5A8C554432F3C21 /* Pods-SLWechatOpenSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLWechatOpenSDK_Example.modulemap"; sourceTree = "<group>"; };
+		39B2F619D3F082A228B4772BAD028612 /* SLWechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLWechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		3ED1048D490D9998904D10576A923542 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		4038A41BB6F4C8711FF14E82DBEE6E85 /* Pods-SLWechatOpenSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLWechatOpenSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		424FAF404C1867EE23CE740CFE2B83A3 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WechatAuthSDK.h; sourceTree = "<group>"; };
+		43F926806EF41D59D8EC7B979BE7B299 /* SLWechatOpenSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLWechatOpenSDK; path = SLWechatOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4412AECA7925E18D021B875585E3545A /* SLUseless.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLUseless.m; path = SLWechatOpenSDK/OpenSDK2.0.0/SLUseless.m; sourceTree = "<group>"; };
+		52C35F666489F3E9F280943F858FC3DC /* Pods-SLWechatOpenSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		575ECD6024423A35A76EEDDC39C636DA /* Pods-SLWechatOpenSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLWechatOpenSDK_Example"; path = Pods_SLWechatOpenSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE0CE8B68EF1E12147496C9A012059D /* Pods-SLWechatOpenSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		5E997DFFB4EFA712FA05AAB4017C237E /* Pods-SLWechatOpenSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLWechatOpenSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		62E9F9C761492A65D8F08476E0A73EDC /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		66276557311E46C9F277587ECF8CCBA5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B41DE6BFF137228734CC8A54B58973A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		771BD5C5D8F8BD65534DEA2F8F9A6A81 /* Pods-SLWechatOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLWechatOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EEE66C4D42A402036930083CF9C0AE6 /* Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EA33933B9919EADA540FAAF97B01C76 /* Pods-SLWechatOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80786C7BEAE9B8CF3046FE9A1135D551 /* Pods-SLWechatOpenSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		81611DCA5CC94E019217051345F5B007 /* SLWechatOpenSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLWechatOpenSDK-Info.plist"; sourceTree = "<group>"; };
 		85A88181495882A336B902E7591899EF /* Pods-SLWechatOpenSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLWechatOpenSDK_Tests"; path = Pods_SLWechatOpenSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		869AF1B4E8755AB2C9C64536B2A56BA8 /* Pods-SLWechatOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		91F28A6ABF9AD69003102B5A98BB2AF9 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SLWechatOpenSDK/OpenSDK2.0.0/libWeChatSDK.a; sourceTree = "<group>"; };
-		98AA97FE04754DE912F5F5800CC55264 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WXApi.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE630EEA300BB2A714B32961E7A4F0B6 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLWechatOpenSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BAE6545CBDD4B1155BBA0FA1227BAC70 /* Pods-SLWechatOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLWechatOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		C56E3E207FFC0B0C4205EBD28031C1DD /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WechatAuthSDK.h; sourceTree = "<group>"; };
-		CBBC42A0BA038204603B10C4815923C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D1FD7EEDB252EBD0C3B0489218441E92 /* SLWechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLWechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
-		E3A4DC4128A740D1FDB412E2A2B2C702 /* SLWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89F441C75FF36034CBBC21C3CC2D7492 /* SLWechatOpenSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLWechatOpenSDK-dummy.m"; sourceTree = "<group>"; };
+		949004B77A9CA5006AE3B4A4D10E966B /* Pods-SLWechatOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLWechatOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		9AF4543696850DAACDB5A78300488C99 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLWechatOpenSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D31F20FFAFF84355758899D6464A26F /* SLWechatOpenSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLWechatOpenSDK-prefix.pch"; sourceTree = "<group>"; };
+		9D54452C52844FDDB122987C50630B31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A221BAB84A641F80B5349E59AEC6E666 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SLWechatOpenSDK/OpenSDK2.0.0/libWeChatSDK.a; sourceTree = "<group>"; };
+		ABD277B8DA31F226BD336ADF2AE6EB2D /* Pods-SLWechatOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLWechatOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0E70E7165C7BB30929AF67C206295E5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA41EF5F2DF8E01CBFD054FC171AAA1D /* Pods-SLWechatOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0EE03D3CCF3FBAD9980D0E08E1191B /* SLWechatOpenSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLWechatOpenSDK.modulemap; sourceTree = "<group>"; };
+		BFC9D775F30CB54ECD6A0D26459C35E9 /* Pods-SLWechatOpenSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLWechatOpenSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		C0D717944C06FEE247515E4435CDC387 /* SLWechatOpenSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLWechatOpenSDK-umbrella.h"; sourceTree = "<group>"; };
+		CF040B3EB6A14A5C2448B68177452B40 /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0A7093C2C3D73B8A5548E10CBD0E7A2 /* Pods-SLWechatOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLWechatOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D241C4FB770B578E1831CBD0070616FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2776879B63FBD2353D56CDA6F399DD5 /* Pods-SLWechatOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLWechatOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		D92EF85A555F85B4C96304E0F63A16D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE7820543872814BCD7D609C82206D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF45EBE0C328FC6B5BE5176A1EB7E27F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E5BA9EA67582B4A97EF10BF0B5899D0A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E65E4C7B87AAC670C3C5A1C50440AD28 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SLWechatOpenSDK/OpenSDK2.0.0/WXApiObject.h; sourceTree = "<group>"; };
+		F183C5629A25F128284EE5887DC4960D /* Pods-SLWechatOpenSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLWechatOpenSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,99 +102,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEB64E7EB0882C148020F5A5C121A4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4957E8856DE397BC350A5CACA1B1F72E /* CoreGraphics.framework in Frameworks */,
+				55C635250968E4000EE71E829D648CB2 /* Foundation.framework in Frameworks */,
+				16853837323EE9865A072B12070BC029 /* Security.framework in Frameworks */,
+				C482A5FA1AA8C3FF15E32F080556A38C /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089E2A78729E82B18B56E56984B8D2B1 /* Support Files */ = {
+		0DBDB33C44D538DFF405AA286F10E1B0 /* SLWechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D1FD7EEDB252EBD0C3B0489218441E92 /* SLWechatOpenSDK.debug.xcconfig */,
-				47695CF6EE51555C539DA5E319277A3C /* SLWechatOpenSDK.release.xcconfig */,
+				4412AECA7925E18D021B875585E3545A /* SLUseless.m */,
+				424FAF404C1867EE23CE740CFE2B83A3 /* WechatAuthSDK.h */,
+				219F1500130C191A53B9CCD0A3490119 /* WXApi.h */,
+				E65E4C7B87AAC670C3C5A1C50440AD28 /* WXApiObject.h */,
+				AD046615B8349608BC4220BD88068790 /* Frameworks */,
+				6FDEDF6690FE042DAE6FB3A25F78F524 /* Pod */,
+				893921A50FF16ED34DFD5E859CB9CF94 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SLWechatOpenSDK";
+			name = SLWechatOpenSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		23F694BD0B4A2FC045365B8EE6DFCFA5 /* Pods-SLWechatOpenSDK_Example */ = {
+		1AB8CCD752944EAFD838F8209689065E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4EA32BFB9263E512357234357F85CE31 /* Pods-SLWechatOpenSDK_Example.modulemap */,
-				421D41A759D59E92FE0F18C824A45697 /* Pods-SLWechatOpenSDK_Example-acknowledgements.markdown */,
-				869AF1B4E8755AB2C9C64536B2A56BA8 /* Pods-SLWechatOpenSDK_Example-acknowledgements.plist */,
-				BAE6545CBDD4B1155BBA0FA1227BAC70 /* Pods-SLWechatOpenSDK_Example-dummy.m */,
-				5DE0CE8B68EF1E12147496C9A012059D /* Pods-SLWechatOpenSDK_Example-Info.plist */,
-				5E997DFFB4EFA712FA05AAB4017C237E /* Pods-SLWechatOpenSDK_Example-umbrella.h */,
-				6B41DE6BFF137228734CC8A54B58973A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */,
-				311377624C1A492D988BF5C3A77A494D /* Pods-SLWechatOpenSDK_Example.release.xcconfig */,
+				0DBDB33C44D538DFF405AA286F10E1B0 /* SLWechatOpenSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A4EAC57777A83A54CF6759AF2B313E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575ECD6024423A35A76EEDDC39C636DA /* Pods-SLWechatOpenSDK_Example */,
+				85A88181495882A336B902E7591899EF /* Pods-SLWechatOpenSDK_Tests */,
+				43F926806EF41D59D8EC7B979BE7B299 /* SLWechatOpenSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF508944741BB0954022DB9F0D05AC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DEAC1F99C9C2CF6FC0AE1860F44A90B /* Pods-SLWechatOpenSDK_Example */,
+				E601D28EA49A158CF5F58808F4C8226E /* Pods-SLWechatOpenSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FDEDF6690FE042DAE6FB3A25F78F524 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D241C4FB770B578E1831CBD0070616FF /* LICENSE */,
+				D92EF85A555F85B4C96304E0F63A16D9 /* README.md */,
+				130B97C87394B9BBC6718287CB716E55 /* SLWechatOpenSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DEAC1F99C9C2CF6FC0AE1860F44A90B /* Pods-SLWechatOpenSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				284B53398BD14E39C5A8C554432F3C21 /* Pods-SLWechatOpenSDK_Example.modulemap */,
+				ABD277B8DA31F226BD336ADF2AE6EB2D /* Pods-SLWechatOpenSDK_Example-acknowledgements.markdown */,
+				D0A7093C2C3D73B8A5548E10CBD0E7A2 /* Pods-SLWechatOpenSDK_Example-acknowledgements.plist */,
+				D2776879B63FBD2353D56CDA6F399DD5 /* Pods-SLWechatOpenSDK_Example-dummy.m */,
+				4038A41BB6F4C8711FF14E82DBEE6E85 /* Pods-SLWechatOpenSDK_Example-frameworks.sh */,
+				52C35F666489F3E9F280943F858FC3DC /* Pods-SLWechatOpenSDK_Example-Info.plist */,
+				F183C5629A25F128284EE5887DC4960D /* Pods-SLWechatOpenSDK_Example-umbrella.h */,
+				E5BA9EA67582B4A97EF10BF0B5899D0A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */,
+				7EA33933B9919EADA540FAAF97B01C76 /* Pods-SLWechatOpenSDK_Example.release.xcconfig */,
 			);
 			name = "Pods-SLWechatOpenSDK_Example";
 			path = "Target Support Files/Pods-SLWechatOpenSDK_Example";
 			sourceTree = "<group>";
 		};
-		318BC51FE4A71FF87709BF7962A2F929 /* Targets Support Files */ = {
+		893921A50FF16ED34DFD5E859CB9CF94 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23F694BD0B4A2FC045365B8EE6DFCFA5 /* Pods-SLWechatOpenSDK_Example */,
-				A593DFC21245F07C95F57DE321735CB2 /* Pods-SLWechatOpenSDK_Tests */,
+				BE0EE03D3CCF3FBAD9980D0E08E1191B /* SLWechatOpenSDK.modulemap */,
+				89F441C75FF36034CBBC21C3CC2D7492 /* SLWechatOpenSDK-dummy.m */,
+				81611DCA5CC94E019217051345F5B007 /* SLWechatOpenSDK-Info.plist */,
+				9D31F20FFAFF84355758899D6464A26F /* SLWechatOpenSDK-prefix.pch */,
+				C0D717944C06FEE247515E4435CDC387 /* SLWechatOpenSDK-umbrella.h */,
+				18DB955115AB1261D8A739593C8B5991 /* SLWechatOpenSDK.debug.xcconfig */,
+				39B2F619D3F082A228B4772BAD028612 /* SLWechatOpenSDK.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLWechatOpenSDK";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		AD046615B8349608BC4220BD88068790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				A221BAB84A641F80B5349E59AEC6E666 /* libWeChatSDK.a */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		57FAD055AED399215173A74068B2BDFF /* Products */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				575ECD6024423A35A76EEDDC39C636DA /* Pods-SLWechatOpenSDK_Example */,
-				85A88181495882A336B902E7591899EF /* Pods-SLWechatOpenSDK_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A593DFC21245F07C95F57DE321735CB2 /* Pods-SLWechatOpenSDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				08EEAC06B42CE70CFD7E17DD6E2F4CDE /* Pods-SLWechatOpenSDK_Tests.modulemap */,
-				2FED4648766D0F1440574F8B19A8B52A /* Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown */,
-				201CC3185FFDE03F390A2634B4FAC2CB /* Pods-SLWechatOpenSDK_Tests-acknowledgements.plist */,
-				771BD5C5D8F8BD65534DEA2F8F9A6A81 /* Pods-SLWechatOpenSDK_Tests-dummy.m */,
-				4BA6877DB08A3491AF7F49ABF869824F /* Pods-SLWechatOpenSDK_Tests-Info.plist */,
-				AE630EEA300BB2A714B32961E7A4F0B6 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */,
-				66276557311E46C9F277587ECF8CCBA5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */,
-				62E9F9C761492A65D8F08476E0A73EDC /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */,
-			);
-			name = "Pods-SLWechatOpenSDK_Tests";
-			path = "Target Support Files/Pods-SLWechatOpenSDK_Tests";
-			sourceTree = "<group>";
-		};
-		AC5653CEF101D60A824B36E6E27C3736 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DAE20507C0AEAADE16A83DB0C9CC9FEC /* SLWechatOpenSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BBDACC56A03DEE0EDCC9CB6B0AFA694A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				29E38678A7E91844D579F581C511837D /* LICENSE */,
-				CBBC42A0BA038204603B10C4815923C3 /* README.md */,
-				E3A4DC4128A740D1FDB412E2A2B2C702 /* SLWechatOpenSDK.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD7F74D72E6F46759490F116DA808F14 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				91F28A6ABF9AD69003102B5A98BB2AF9 /* libWeChatSDK.a */,
+				FC39A858A4B1A1532E5C405C6D1441FE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,38 +220,54 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AC5653CEF101D60A824B36E6E27C3736 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				57FAD055AED399215173A74068B2BDFF /* Products */,
-				318BC51FE4A71FF87709BF7962A2F929 /* Targets Support Files */,
+				1AB8CCD752944EAFD838F8209689065E /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				4A4EAC57777A83A54CF6759AF2B313E9 /* Products */,
+				5AF508944741BB0954022DB9F0D05AC8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E601D28EA49A158CF5F58808F4C8226E /* Pods-SLWechatOpenSDK_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				BFC9D775F30CB54ECD6A0D26459C35E9 /* Pods-SLWechatOpenSDK_Tests.modulemap */,
+				6EEE66C4D42A402036930083CF9C0AE6 /* Pods-SLWechatOpenSDK_Tests-acknowledgements.markdown */,
+				BA41EF5F2DF8E01CBFD054FC171AAA1D /* Pods-SLWechatOpenSDK_Tests-acknowledgements.plist */,
+				949004B77A9CA5006AE3B4A4D10E966B /* Pods-SLWechatOpenSDK_Tests-dummy.m */,
+				80786C7BEAE9B8CF3046FE9A1135D551 /* Pods-SLWechatOpenSDK_Tests-Info.plist */,
+				9AF4543696850DAACDB5A78300488C99 /* Pods-SLWechatOpenSDK_Tests-umbrella.h */,
+				B0E70E7165C7BB30929AF67C206295E5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */,
+				CF040B3EB6A14A5C2448B68177452B40 /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-SLWechatOpenSDK_Tests";
+			path = "Target Support Files/Pods-SLWechatOpenSDK_Tests";
 			sourceTree = "<group>";
 		};
-		DAE20507C0AEAADE16A83DB0C9CC9FEC /* SLWechatOpenSDK */ = {
+		FC39A858A4B1A1532E5C405C6D1441FE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C56E3E207FFC0B0C4205EBD28031C1DD /* WechatAuthSDK.h */,
-				98AA97FE04754DE912F5F5800CC55264 /* WXApi.h */,
-				20A10B1540D5D4842A270F96EBDE3EC7 /* WXApiObject.h */,
-				CD7F74D72E6F46759490F116DA808F14 /* Frameworks */,
-				BBDACC56A03DEE0EDCC9CB6B0AFA694A /* Pod */,
-				089E2A78729E82B18B56E56984B8D2B1 /* Support Files */,
+				9D54452C52844FDDB122987C50630B31 /* CoreGraphics.framework */,
+				DE7820543872814BCD7D609C82206D18 /* Foundation.framework */,
+				DF45EBE0C328FC6B5BE5176A1EB7E27F /* Security.framework */,
+				3ED1048D490D9998904D10576A923542 /* WebKit.framework */,
 			);
-			name = SLWechatOpenSDK;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		169F388F8B8C725540D454C0A9CEEF67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5029540E269AA675799E6549F8329844 /* SLWechatOpenSDK-umbrella.h in Headers */,
+				691832D44EF69512976B41861F7CAB06 /* WechatAuthSDK.h in Headers */,
+				E2F854B64AC6CE3E66FDB3984F64A68D /* WXApi.h in Headers */,
+				330C90DCCF7FB847D2FA8AAC848AA6DF /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		602B0683AE4995325584BAA9729950ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,7 +299,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A6901F8A539E934FAEA7F8925261AD59 /* PBXTargetDependency */,
+				828501F99559B81205F6AA34866D6F53 /* PBXTargetDependency */,
 			);
 			name = "Pods-SLWechatOpenSDK_Tests";
 			productName = Pods_SLWechatOpenSDK_Tests;
@@ -276,11 +318,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				9F617F06D0E897298A2EA10D7D5DE32B /* PBXTargetDependency */,
+				06BB3691CD5E2A43D47C2FA74E29E517 /* PBXTargetDependency */,
 			);
 			name = "Pods-SLWechatOpenSDK_Example";
 			productName = Pods_SLWechatOpenSDK_Example;
 			productReference = 575ECD6024423A35A76EEDDC39C636DA /* Pods-SLWechatOpenSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6439D5773266F10D92CD2AE8435EBF3 /* SLWechatOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BF8D139696AFA79146420018514C36 /* Build configuration list for PBXNativeTarget "SLWechatOpenSDK" */;
+			buildPhases = (
+				169F388F8B8C725540D454C0A9CEEF67 /* Headers */,
+				D20AA1F49ADEAFCFC0B6D416EB797504 /* Sources */,
+				DEB64E7EB0882C148020F5A5C121A4C8 /* Frameworks */,
+				268374A0E78655C2D5BAD998FDFA6944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLWechatOpenSDK;
+			productName = SLWechatOpenSDK;
+			productReference = 43F926806EF41D59D8EC7B979BE7B299 /* SLWechatOpenSDK */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +361,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 57FAD055AED399215173A74068B2BDFF /* Products */;
+			productRefGroup = 4A4EAC57777A83A54CF6759AF2B313E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -314,6 +374,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		16DD16A4957FA8B21D0339B181D277CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268374A0E78655C2D5BAD998FDFA6944 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,27 +413,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D20AA1F49ADEAFCFC0B6D416EB797504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AA5A2345CCED4B1BB5E5CDBDBB2BF4 /* SLUseless.m in Sources */,
+				D7615B00F3CC9BA71BBD58B59E79D910 /* SLWechatOpenSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F617F06D0E897298A2EA10D7D5DE32B /* PBXTargetDependency */ = {
+		06BB3691CD5E2A43D47C2FA74E29E517 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SLWechatOpenSDK;
 			target = E6439D5773266F10D92CD2AE8435EBF3 /* SLWechatOpenSDK */;
-			targetProxy = F56E1B3536F796EF38DCDB5D1C0171C0 /* PBXContainerItemProxy */;
+			targetProxy = 6B06D4233D34CDB1563655BF64844C24 /* PBXContainerItemProxy */;
 		};
-		A6901F8A539E934FAEA7F8925261AD59 /* PBXTargetDependency */ = {
+		828501F99559B81205F6AA34866D6F53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SLWechatOpenSDK_Example";
 			target = 9F8CB027CA71317C87A9F184DC29CCD6 /* Pods-SLWechatOpenSDK_Example */;
-			targetProxy = EEA182A9A0D162F4F7E80AD4E683B751 /* PBXContainerItemProxy */;
+			targetProxy = B7DAFA47ED66ABE48B3CAC028D8E4F9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1E9192BE609414F6BE5B74E9FE7C66E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DB955115AB1261D8A739593C8B5991 /* SLWechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK.modulemap";
+				PRODUCT_MODULE_NAME = SLWechatOpenSDK;
+				PRODUCT_NAME = SLWechatOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		20CC4CEB653111879A553B43B0FBFFC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 311377624C1A492D988BF5C3A77A494D /* Pods-SLWechatOpenSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 7EA33933B9919EADA540FAAF97B01C76 /* Pods-SLWechatOpenSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -463,23 +569,9 @@
 			};
 			name = Debug;
 		};
-		2EF462DAEFB3CEBF40B4858031D61511 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47695CF6EE51555C539DA5E319277A3C /* SLWechatOpenSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		614CD397DE47827117A2B60F7324D4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62E9F9C761492A65D8F08476E0A73EDC /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = CF040B3EB6A14A5C2448B68177452B40 /* Pods-SLWechatOpenSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -510,22 +602,9 @@
 			};
 			name = Release;
 		};
-		85AE023D18F0D860757117BB7002B9D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1FD7EEDB252EBD0C3B0489218441E92 /* SLWechatOpenSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		8F3C2719DBDF3B5DB0B7D775A18AFE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B41DE6BFF137228734CC8A54B58973A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = E5BA9EA67582B4A97EF10BF0B5899D0A /* Pods-SLWechatOpenSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,9 +634,40 @@
 			};
 			name = Debug;
 		};
+		A17BD9C4DFCC3BD227DB11E2FAB0689F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B2F619D3F082A228B4772BAD028612 /* SLWechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLWechatOpenSDK/SLWechatOpenSDK.modulemap";
+				PRODUCT_MODULE_NAME = SLWechatOpenSDK;
+				PRODUCT_NAME = SLWechatOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BB68C42EBE82A674A35E2CD2FD03BD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66276557311E46C9F277587ECF8CCBA5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = B0E70E7165C7BB30929AF67C206295E5 /* Pods-SLWechatOpenSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,8 +752,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -652,11 +761,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3576976FB9B270663F67F7AB1A5762BF /* Build configuration list for PBXAggregateTarget "SLWechatOpenSDK" */ = {
+		17BF8D139696AFA79146420018514C36 /* Build configuration list for PBXNativeTarget "SLWechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85AE023D18F0D860757117BB7002B9D1 /* Debug */,
-				2EF462DAEFB3CEBF40B4858031D61511 /* Release */,
+				1E9192BE609414F6BE5B74E9FE7C66E2 /* Debug */,
+				A17BD9C4DFCC3BD227DB11E2FAB0689F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

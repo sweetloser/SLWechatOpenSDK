@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLWechatOpenSDK'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'A short description of SLWechatOpenSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'SLWechatOpenSDK/OpenSDK2.0.0/**.h'
+  
+  s.public_header_files = 'SLWechatOpenSDK/OpenSDK2.0.0/**.h'
+  s.source_files = 'SLWechatOpenSDK/OpenSDK2.0.0/**.[h,m]'
   s.vendored_libraries = 'SLWechatOpenSDK/OpenSDK2.0.0/*.a'
 
   s.pod_target_xcconfig = {
@@ -38,12 +39,6 @@ TODO: Add long description of the pod here.
     }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  # s.resource_bundles = {
-  #   'SLWechatOpenSDK' => ['SLWechatOpenSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'CoreGraphics', 'WebKit', 'Security'
   s.libraries = 'z','c++'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

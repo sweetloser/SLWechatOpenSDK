@@ -18,7 +18,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SLWechatOpenSDK/OpenSDK2.0.0/**.h",
+  "public_header_files": "SLWechatOpenSDK/OpenSDK2.0.0/**.h",
+  "source_files": "SLWechatOpenSDK/OpenSDK2.0.0/**.[h,m]",
   "vendored_libraries": "SLWechatOpenSDK/OpenSDK2.0.0/*.a",
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"

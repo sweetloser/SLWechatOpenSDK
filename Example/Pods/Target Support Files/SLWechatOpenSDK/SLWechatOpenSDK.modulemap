@@ -1,0 +1,6 @@
+framework module SLWechatOpenSDK {
+  umbrella header "SLWechatOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
